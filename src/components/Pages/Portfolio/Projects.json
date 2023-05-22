@@ -1,10 +1,10 @@
 [
   {
     "id": 8,
-    "title": "CoinWatch - A realtime curreny price tracker",
-    "category": "React - Javascript - coingecko Api - MUI",
-    "image": "./images/projects/project-8.png",
-    "url": "https://cryptowatch-tingrecodes.netlify.app/"
+    "title": "Resume Builder",
+    "category": "React - Javascript - CSS",
+    "image": "./images/projects/project-10.png",
+    "url": "https://online-resume-builder-app.netlify.app/"
   },
   {
     "id": 7,
@@ -12,6 +12,13 @@
     "category": "React - Javascript - GitHub Api - CSS",
     "image": "./images/projects/project-7.png",
     "url": "https://gitinsight.netlify.app/"
+  },
+  {
+    "id": 8,
+    "title": "CoinWatch - A realtime curreny price tracker",
+    "category": "React - Javascript - coingecko Api - MUI",
+    "image": "./images/projects/project-8.png",
+    "url": "https://cryptowatch-tingrecodes.netlify.app/"
   },
   {
     "id": 1,
