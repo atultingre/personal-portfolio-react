@@ -20,7 +20,7 @@ const Sidebar = () => {
     <aside className="sidebar active" data-sidebar ref={sidebarRef}>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src="./images/my-avatar1.png" alt="Atul Tingre" width="80" />
+          <img src="./images/my-avatar1.png" alt="Atul Tingre" width="80" height="120"/>
         </figure>
         <div className="info-content">
           <h1 className="name" title="Atul Tingre">
