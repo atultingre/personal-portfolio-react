@@ -85,6 +85,31 @@
 
 }
 
+/* DARK MODE */
+
+[data-theme="dark"] {
+    --bg-color: hsl(223, 100%, 96%);
+    --text-color: #333;
+} 
+
+[data-theme="light"] {
+    --bg-color: hsl(0, 0%, 7%);
+    --text-color: #f8f8f8;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+
+
+
+
+
+
+
 /* #RESET */
 
 
@@ -142,9 +167,9 @@ html {
     font-family: var(--ff-poppins);
 }
 
-body {
+/* body {
     background: var(--smoky-black);
-}
+} */
 
 /* #REUSED STYLE */
 
@@ -306,7 +331,7 @@ article.active {
         font-size: 18px;
     }
 
-   
+
 }
 
 
@@ -315,6 +340,7 @@ article.active {
  */
 
 @media (min-width: 768px) {
+
     /* * REUSED STYLE */
     /* .sidebar, */
     article {
@@ -332,6 +358,7 @@ article.active {
  */
 
 @media (min-width: 1024px) {
+
     /* REUSED STYLE */
     /* .sidebar, */
     article {
@@ -346,6 +373,7 @@ article.active {
  */
 
 @media (min-width: 1250px) {
+
     /**
    * REUSED STYLE
    */
@@ -353,30 +381,8 @@ article.active {
     article {
         width: auto;
     }
+
     article {
         min-height: 100%;
     }
 }
-
-
-
-
-
-
-/* DARK MODE */
-/* Light mode */
-:root {
-    --bg-color:  #222;
-    --text-color: #fff;
-  }
-  
-  /* Dark mode */
-  [data-theme="dark"] {
-    --bg-color: #f8f8f8;
-    --text-color: #333;
-  }
-  
-  body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-  }
