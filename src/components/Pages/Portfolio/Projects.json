@@ -14,6 +14,13 @@
     "url": "https://gitinsight.netlify.app/"
   },
   {
+    "id": 11,
+    "title": "React Forms",
+    "category": "React - Javascript - CSS",
+    "image": "./images/projects/project-11.png",
+    "url": "https://react-forms.netlify.app/"
+  },
+  {
     "id": 8,
     "title": "CoinWatch - A realtime curreny price tracker",
     "category": "React - Javascript - coingecko Api - MUI",

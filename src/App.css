@@ -88,13 +88,13 @@
 /* DARK MODE */
 
 [data-theme="dark"] {
-    --bg-color: hsl(223, 100%, 96%);
-    --text-color: #333;
+    --bg-color: hsl(0, 0%, 7%);
+    --text-color: #f8f8f8;
 } 
 
 [data-theme="light"] {
-    --bg-color: hsl(0, 0%, 7%);
-    --text-color: #f8f8f8;
+    --bg-color: hsl(223, 100%, 96%);
+    --text-color: #333;
 }
 
 body {

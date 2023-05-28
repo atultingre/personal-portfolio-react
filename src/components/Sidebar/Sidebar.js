@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./Sidebar.css";
-import {BsChevronDown} from "react-icons/bs";
+import { BsChevronDown } from "react-icons/bs";
 
 import ContactDetails from "./ContactDetails/ContactDetails";
 import SocialMedia from "./Social/SocialMedia";
@@ -20,7 +20,7 @@ const Sidebar = () => {
     <aside className="sidebar active" data-sidebar ref={sidebarRef}>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src="./images/my-avatar1.png" alt="Atul Tingre" width="80"/>
+          <img src="./images/my-avatar1.png" alt="Atul Tingre" width="80" />
         </figure>
         <div className="info-content">
           <h1 className="name" title="Atul Tingre">
@@ -39,8 +39,8 @@ const Sidebar = () => {
         </button>
       </div>
       <div className="sidebar-info-more">
-        <ContactDetails/>
-        <SocialMedia/>
+        <ContactDetails />
+        <SocialMedia />
       </div>
     </aside>
   );

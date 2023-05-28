@@ -1,8 +1,8 @@
 import React from "react";
 import "./Resume.css";
-// import Skills from "./Skills/Skills";
 import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
+// import EducationTimeline from "./Education/Timeline/EducationTimeline";
 
 const Resume = () => {
   return (
@@ -10,7 +10,7 @@ const Resume = () => {
       <header>
         <h2 className="h2 article-title">Resume</h2>
       </header>
-      {/* <Skills/> */}
+      {/* <EducationTimeline/> */}
       <Education/>
       <Experience/>
     </div>

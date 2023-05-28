@@ -1,26 +1,26 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import { BsSearch, BsSunFill, BsFillMoonFill } from "react-icons/bs";
+// import { BsSearch, BsSunFill, BsFillMoonFill } from "react-icons/bs";
 
 // import { BsFillMoonFill } from "react-icons/bs";
 const Navbar = () => {
 
     //DARK MODE
 
-    const [theme, setTheme] = useState("dark");
+    // const [theme, setTheme] = useState("dark");
     
-    useEffect(() => {
-      document.documentElement.setAttribute("data-theme", theme);
-    }, [theme]);
+    // useEffect(() => {
+    //   document.documentElement.setAttribute("data-theme", theme);
+    // }, [theme]);
   
-    const toggleTheme = () => {
-      if (theme === "light") {
-        setTheme("dark");       
-      } else {
-        setTheme("light");
-      }
-    };
+    // const toggleTheme = () => {
+    //   if (theme === "light") {
+    //     setTheme("dark");       
+    //   } else {
+    //     setTheme("light");
+    //   }
+    // };
 
   return (
     <div>
