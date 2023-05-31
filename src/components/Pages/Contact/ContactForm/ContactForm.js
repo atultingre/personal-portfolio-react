@@ -15,6 +15,7 @@ const ContactForm = () => {
     formState: { errors },
   } = useForm();
 
+  
   const sendEmail = (e) => {
     e.preventDefault();
     const isValid = trigger();
