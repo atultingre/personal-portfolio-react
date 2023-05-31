@@ -3,6 +3,8 @@ import "./ContactForm.css";
 import { FaPaperPlane } from "react-icons/fa";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
   const form = useRef();
@@ -30,10 +32,18 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("Message Send Successfully...😍", {
+            position: toast.POSITION.TOP_RIGHT,
+            draggable: true,
+          });
           e.target.reset();
         },
         (error) => {
           console.log(error.text);
+          toast.error("Network Error...😞", {
+            position: toast.POSITION.TOP_RIGHT,
+            draggable: true,
+          });
         }
       );
   };
@@ -51,7 +61,7 @@ const ContactForm = () => {
               className="form-input"
               placeholder="Full name"
               required
-              {...register("name", {
+              {...register("user_name", {
                 required: true,
                 maxLength: 100,
               })}
@@ -68,7 +78,7 @@ const ContactForm = () => {
               className="form-input"
               placeholder="Email Address"
               required
-              {...register("email", {
+              {...register("user_email", {
                 required: true,
                 pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
               })}
@@ -105,6 +115,7 @@ const ContactForm = () => {
           </button>
         </form>
       </section>
+          <ToastContainer />
     </div>
   );
 };
