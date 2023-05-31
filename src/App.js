@@ -9,6 +9,7 @@ import Blog from "./components/Pages/Blog/Blog";
 import Contact from "./components/Pages/Contact/Contact";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Certificates from "./components/Pages/Certificate/Certificates";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -32,12 +33,14 @@ function App() {
         <Router>
           <Navbar toggleTheme={toggleTheme} />
           <Routes>
-            <Route exact path="/" element={<About />} />
-            <Route exact path="/resume" element={<Resume />} />
-            <Route exact path="/portfolio" element={<Portfolio />} />
-            <Route exact path="/certificate" element={<Certificates />} />
-            <Route exact path="/blog" element={<Blog />} />
-            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/" element={<Layout />}>
+              <Route exact path="/" element={<About />} />
+              <Route exact path="resume" element={<Resume />} />
+              <Route exact path="portfolio" element={<Portfolio />} />
+              <Route exact path="certificate" element={<Certificates />} />
+              <Route exact path="blog" element={<Blog />} />
+              <Route exact path="contact" element={<Contact />} />
+            </Route>
           </Routes>
         </Router>
       </div>
