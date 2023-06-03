@@ -19,7 +19,11 @@ const Portfolio = () => {
                         <BsEyeFill />
                       </div>
                     </div>
-                    <img src={project.image} alt={project.title} loading="lazy"/>
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      loading="lazy"
+                    />
                   </figure>
                   <h3 className="project-title">{project.title}</h3>
                   <p className="project-category">{project.category}</p>

@@ -3,7 +3,9 @@
 
 /* education and experience  */
 
-.timeline { margin-bottom: 30px; }
+.timeline {
+  margin-bottom: 30px;
+}
 
 .timeline .title-wrapper {
   display: flex;
@@ -17,9 +19,13 @@
   margin-left: 45px;
 }
 
-.timeline-item { position: relative; }
+.timeline-item {
+  position: relative;
+}
 
-.timeline-item:not(:last-child) { margin-bottom: 20px; }
+.timeline-item:not(:last-child) {
+  margin-bottom: 20px;
+}
 
 .timeline-item-title {
   font-size: var(--fs-6);
@@ -59,15 +65,19 @@
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  text-align: justify;
 }
-
 
 @media (min-width: 580px) {
 
-/* RESUME */
-  .timeline-list { margin-left: 65px; }
+  /* RESUME */
+  .timeline-list {
+    margin-left: 65px;
+  }
 
-  .timeline-item:not(:last-child)::before { left: -40px; }
+  .timeline-item:not(:last-child)::before {
+    left: -40px;
+  }
 
   .timeline-item::after {
     height: 8px;
@@ -76,8 +86,10 @@
   }
 }
 
- /* responsive larger than 1250px screen */
+/* responsive larger than 1250px screen */
 
- @media (min-width: 1250px) {
-  .timeline-text { max-width: 700px; }
+@media (min-width: 1250px) {
+  .timeline-text {
+    max-width: 700px;
+  }
 }

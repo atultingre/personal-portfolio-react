@@ -15,23 +15,29 @@
     "value": "70"
   },
   {
+    "title": "MongoDB",
+    "percentage": "45%",
+    "value": "45"
+  },
+
+  {
+    "title": "Express.JS",
+    "percentage": "50%",
+    "value": "50"
+  },
+  {
     "title": "React",
-    "percentage": "75%",
+    "percentage": "70%",
     "value": "70"
   },
   {
-    "title": "Redux",
-    "percentage": "60%",
-    "value": "60"
-  },
-  {
     "title": "Node.js",
-    "percentage": "60%",
-    "value": "60"
-  },
-  {
-    "title": "MongoDB",
     "percentage": "50%",
     "value": "50"
+  },
+  {
+    "title": "Redux",
+    "percentage": "65%",
+    "value": "65"
   }
 ]

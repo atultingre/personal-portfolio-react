@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactDetails.css";
 import { AiOutlineMobile } from "react-icons/ai";
-import { BsEnvelopeAt, BsCalendar3,BsFillGeoAltFill,} from "react-icons/bs";
+import { BsEnvelopeAt, BsCalendar3, BsFillGeoAltFill } from "react-icons/bs";
 const ContactDetails = () => {
   return (
     <div>
@@ -15,8 +15,8 @@ const ContactDetails = () => {
           </div>
           <div className="contact-info">
             <p className="contact-title">Email</p>
-            <a href="mailto:atultingre.work@gmail.com" className="contact-link">
-              atultingre.work@gmail.com
+            <a href="mailto:atultingrecodes@gmail.com" className="contact-link">
+              atultingrecodes@gmail.com
             </a>
           </div>
         </li>
@@ -30,7 +30,7 @@ const ContactDetails = () => {
           <div className="contact-info">
             <p className="contact-title">Phone</p>
             <a href="tel:+918806234568" className="contact-link">
-              +91 8806234568
+              +91 9588662449
             </a>
           </div>
         </li>
@@ -53,7 +53,7 @@ const ContactDetails = () => {
           </div>
           <div className="contact-info">
             <p className="contact-title">Location</p>
-            <address>Nanded, Maharashtra, India</address>
+            <address>Pune, Maharashtra, India</address>
           </div>
         </li>
       </ul>

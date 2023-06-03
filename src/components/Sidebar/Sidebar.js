@@ -26,7 +26,7 @@ const Sidebar = () => {
           <h1 className="name" title="Atul Tingre">
             Atul Tingre
           </h1>
-          <p className="title">Frontend Developer</p>
+          <p className="title">Software Engineer</p>
         </div>
         <button
           className="info-more-btn"
