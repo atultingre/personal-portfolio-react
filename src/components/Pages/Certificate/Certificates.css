@@ -78,7 +78,7 @@
 }
 
 .certificate-title:hover {
-    color: orangered;
+    color: #55c614;
     font-weight: var(--fw-400);
 }
 
