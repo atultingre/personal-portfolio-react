@@ -1,7 +1,7 @@
 import React from "react";
 import "./SocialMedia.css";
 import {
-  BsDownload,
+  // BsDownload,
   BsFacebook,
   BsLinkedin,
   BsGithub,
