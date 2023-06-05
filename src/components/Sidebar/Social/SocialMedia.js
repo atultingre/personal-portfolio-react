@@ -57,10 +57,10 @@ const SocialMedia = () => {
             </div>
           </a>
         </li>
-        <li className="social-item">
+        {/* <li className="social-item">
           <a
             href="https://drive.google.com/file/d/1Ar35Y5tMb8SsEjuyM4d2cgv08ugVyi89/view?usp=sharing"
-            download="https://drive.google.com/file/d/1Ar35Y5tMb8SsEjuyM4d2cgv08ugVyi89/view?usp=sharing"
+            download
             target="_blank"
             rel="noreferrer"
             className="social-link">
@@ -68,7 +68,7 @@ const SocialMedia = () => {
               <BsDownload />
             </div>
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
