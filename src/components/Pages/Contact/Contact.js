@@ -2,8 +2,10 @@ import React from "react";
 import "./Contact.css";
 import Map from "./Map/Map";
 import ContactForm from "./ContactForm/ContactForm"
+import useTitle from "../../hook/useTitle";
 
 const Contact = () => {
+  useTitle("Contact")
   return (
     <div className="article contact">
       <header>

@@ -10,6 +10,7 @@ import Contact from "./components/Pages/Contact/Contact";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Certificates from "./components/Pages/Certificate/Certificates";
 import Layout from "./components/Layout/Layout";
+import Error from "./components/Error/Error";
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -35,11 +36,12 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Layout />}>
               <Route exact path="/" element={<About />} />
-              <Route exact path="resume" element={<Resume />} />
-              <Route exact path="portfolio" element={<Portfolio />} />
-              <Route exact path="certificate" element={<Certificates />} />
-              <Route exact path="blog" element={<Blog />} />
-              <Route exact path="contact" element={<Contact />} />
+              <Route exact path="/resume" element={<Resume />} />
+              <Route exact path="/portfolio" element={<Portfolio />} />
+              <Route exact path="/certificate" element={<Certificates />} />
+              <Route exact path="/blog" element={<Blog />} />
+              <Route exact path="/contact" element={<Contact />} />
+              <Route exact path="*" element={<Error />} />
             </Route>
           </Routes>
         </Router>

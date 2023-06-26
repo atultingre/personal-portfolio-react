@@ -1,7 +1,9 @@
 import "./Portfolio.css";
 import { BsEyeFill } from "react-icons/bs";
 import Projects from "./Projects.json";
+import useTitle from "../../hook/useTitle";
 const Portfolio = () => {
+  useTitle("Portfolio")
   return (
     <div className="portfolio article">
       <header>

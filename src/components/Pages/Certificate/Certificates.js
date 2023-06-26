@@ -2,8 +2,10 @@ import React from "react";
 import "./Certificates.css";
 import Certificate from "./Certificate.json";
 import { BsEyeFill } from "react-icons/bs";
+import useTitle from "../../hook/useTitle";
 
 const Certificates = () => {
+  useTitle("Certificates")
   return (
     <>
       <div className="certificates article">

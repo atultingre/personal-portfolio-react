@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 // import Service from "../Service/Service";
 // import Clients from "../Clients/Clients";
 import Skills from "../Resume/Skills/Skills";
+import useTitle from "../../hook/useTitle";
 
 const About = () => {
+  useTitle("About")
   // { toggleTheme }
   return (
     // toggleTheme={toggleTheme}
