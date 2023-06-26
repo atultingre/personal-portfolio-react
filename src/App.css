@@ -87,7 +87,7 @@
 
 /* DARK MODE */
 
-[data-theme="dark"] {
+/* [data-theme="dark"] {
     --bg-color: hsl(0, 0%, 7%);
     --text-color: #f8f8f8;
 } 
@@ -95,8 +95,12 @@
 [data-theme="light"] {
     --bg-color: hsl(223, 100%, 96%);
     --text-color: #333;
-}
+} */
 
+body {
+    --bg-color: hsl(0, 0%, 7%);
+    --text-color: #f8f8f8;
+}
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
